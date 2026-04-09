@@ -1,6 +1,6 @@
 package Bloque2Interfaces;
 
-public interface ColaTDA {
+public interface ColaEstatica {
     void InicializarCola();
     void Acolar(int x);
     void Desacolar();

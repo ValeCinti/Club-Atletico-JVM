@@ -1,8 +1,8 @@
 package Implementacion;
 
-import Bloque2Interfaces.ColaTDA;
+import Bloque2Interfaces.ColaEstatica;
 
-public class ColaEstatica implements ColaTDA {
+public class ColaEstaticaa implements ColaEstatica {
 
     private static final int MAX = 100;
     private int[] datos;
