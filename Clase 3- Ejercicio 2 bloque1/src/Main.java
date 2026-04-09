@@ -172,7 +172,7 @@ public class Main {
     }
 
     private static String urlDesdeCodigo(int codigo) {
-        switch (codigo) {
+        switch(codigo) {
             case FI_UBA:
                 return "fi.uba.ar";
             case CAMPUS_UTN:
@@ -203,16 +203,19 @@ public class Main {
         switch (frameId) {
             case FRAME_MAIN:
                 return "Main()";
+
             case FRAME_CALCULAR_PROMEDIO:
                 return "CalcularPromedio()";
+
             case FRAME_SUMAR:
                 return "Sumar()";
+                
             default:
                 return "Frame desconocido";
         }
     }
 
-    private static String directorioDesdeId(int id) {
+    private static String directorioDesdeId(int id){
         switch (id) {
             case DIR_C:
                 return "C:/";
