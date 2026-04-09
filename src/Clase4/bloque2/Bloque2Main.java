@@ -1,5 +1,6 @@
-import Bloque2Interfaces.ColaTDA;
-import Implementacion.ColaEstatica;
+package clase4.bloque2;
+import Implementaciones.ColaEstatica;
+import Interfaces.ColaTDA;
 
 public class Bloque2Main {
     public static void main(String[] args) {
