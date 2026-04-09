@@ -1,7 +1,7 @@
 import Implementacion.*;
 import Interfaces.PilaTDA;
 
-public class Main {
+public class Bloque1Main {
     public static void main(String[] args) {
         PilaTDA pila = new Estrategia_1();
 

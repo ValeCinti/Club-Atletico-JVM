@@ -1,7 +1,7 @@
 import Implementacion.ColaEstatica;
 import Interface.ColaTDA;
 
-public class Main {
+public class Bloque2Main {
     public static void main(String[] args) {
         ColaTDA cola = new ColaEstatica();
 
