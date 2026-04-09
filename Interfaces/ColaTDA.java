@@ -1,4 +1,4 @@
-package Bloque2Interfaces;
+package Interfaces;
 
 public interface ColaTDA {
     void InicializarCola();
