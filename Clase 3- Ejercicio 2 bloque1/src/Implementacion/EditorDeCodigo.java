@@ -1,6 +1,6 @@
 package Implementacion;
 
-import Interfaces.PilaTDA;
+import Bloque1Interfaces.PilaTDA;
 
 public class EditorDeCodigo {
     private static final int ESTADO_INICIAL = 100;

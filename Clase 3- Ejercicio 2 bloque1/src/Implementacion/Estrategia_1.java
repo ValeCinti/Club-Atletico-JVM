@@ -1,6 +1,6 @@
 package Implementacion;
 
-import Interfaces.PilaTDA;
+import Bloque1Interfaces.PilaTDA;
 
 public class Estrategia_1 implements PilaTDA {
 

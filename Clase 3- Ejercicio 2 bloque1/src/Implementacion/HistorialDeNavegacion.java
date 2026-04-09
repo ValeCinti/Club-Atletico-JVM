@@ -1,6 +1,6 @@
 package Implementacion;
 
-import Interfaces.PilaTDA;
+import Bloque1Interfaces.PilaTDA;
 
 public class HistorialDeNavegacion {
     private static final int FI_UBA = 1;

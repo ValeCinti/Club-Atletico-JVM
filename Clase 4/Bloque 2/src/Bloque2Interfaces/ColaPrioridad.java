@@ -1,4 +1,4 @@
-package Interface;
+package Bloque2Interfaces;
 
 public interface ColaPrioridad{
     void InicializarColaPrioridad();

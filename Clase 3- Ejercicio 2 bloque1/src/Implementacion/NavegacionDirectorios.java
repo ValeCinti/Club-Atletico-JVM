@@ -1,6 +1,6 @@
 package Implementacion;
 
-import Interfaces.PilaTDA;
+import Bloque1Interfaces.PilaTDA;
 
 public class NavegacionDirectorios {
     private static final int DIR_C = 300;

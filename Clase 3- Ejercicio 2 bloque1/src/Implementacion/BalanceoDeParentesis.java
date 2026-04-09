@@ -1,6 +1,6 @@
 package Implementacion;
 
-import Interfaces.PilaTDA;
+import Bloque1Interfaces.PilaTDA;
 
 public class BalanceoDeParentesis {
     public static void ejecutar(PilaTDA pila, String expresion) {
