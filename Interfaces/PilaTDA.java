@@ -1,4 +1,4 @@
-package Bloque1Interfaces;
+package Interfaces;
 
 public interface PilaTDA {
     void InicializarPila();

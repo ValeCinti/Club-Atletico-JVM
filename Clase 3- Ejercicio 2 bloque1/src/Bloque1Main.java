@@ -1,4 +1,4 @@
-import Bloque1Interfaces.PilaTDA;
+import Interfaces.PilaTDA;
 import Implementacion.*;
 
 public class Bloque1Main {
