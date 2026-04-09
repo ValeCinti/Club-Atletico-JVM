@@ -1,4 +1,4 @@
-import Bloque1Interfaces.PilaTDA;
+import Interfaces.PilaTDA;
 
 public class NavegacionDirectorios {
     private static final int DIR_C = 300;

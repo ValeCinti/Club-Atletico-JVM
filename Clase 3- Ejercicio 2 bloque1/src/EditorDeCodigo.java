@@ -1,4 +1,4 @@
-import Bloque1Interfaces.PilaTDA;
+import Interfaces.PilaTDA;
 
 public class EditorDeCodigo {
     private static final int ESTADO_INICIAL = 100;

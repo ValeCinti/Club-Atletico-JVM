@@ -1,4 +1,4 @@
-import Bloque1Interfaces.PilaTDA;
+import Interfaces.PilaTDA;
 
 public class HistorialDeNavegacion {
     private static final int FI_UBA = 1;

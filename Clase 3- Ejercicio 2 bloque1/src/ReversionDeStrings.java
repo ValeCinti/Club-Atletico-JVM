@@ -1,4 +1,4 @@
-import Bloque1Interfaces.PilaTDA;
+import Interfaces.PilaTDA;
 
 public class ReversionDeStrings {
     public static void ejecutar(PilaTDA pila, String palabra) {
