@@ -1,4 +1,9 @@
-private static void reversionString(PilaTDA pila, String palabra) {
+package Implementacion;
+
+import Interfaces.PilaTDA;
+
+public class ReversionDeStrings {
+    public static void ejecutar(PilaTDA pila, String palabra) {
         System.out.println("4) Reversion de string: " + palabra);
         pila.InicializarPila();
 
@@ -19,3 +24,4 @@ private static void reversionString(PilaTDA pila, String palabra) {
         System.out.println("Palabra invertida: " + invertida);
         System.out.println();
     }
+}

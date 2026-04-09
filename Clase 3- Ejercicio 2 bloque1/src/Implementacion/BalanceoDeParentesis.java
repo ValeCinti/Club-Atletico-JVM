@@ -1,4 +1,9 @@
-private static void balanceoParentesis(PilaTDA pila, String expresion) {
+package Implementacion;
+
+import Interfaces.PilaTDA;
+
+public class BalanceoDeParentesis {
+    public static void ejecutar(PilaTDA pila, String expresion) {
         System.out.println("3) Balanceo de parentesis en: " + expresion);
         pila.InicializarPila();
 
@@ -27,3 +32,4 @@ private static void balanceoParentesis(PilaTDA pila, String expresion) {
         System.out.println("Resultado balanceo: " + (balanceado ? "correcto" : "incorrecto"));
         System.out.println();
     }
+}
