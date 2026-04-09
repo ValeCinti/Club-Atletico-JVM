@@ -1,6 +1,6 @@
 package clase4.bloque2;
 import Interfaces.*;
-
+import Implementaciones.*;
 
 public class ImpresoraLab {
     private static final int TP_1 = 1;
@@ -9,7 +9,7 @@ public class ImpresoraLab {
     private static final int TP_4 = 4;
     private static final int TP_5 = 5;
     
-    public static void ejecutar(ColaEstaticaa ColaE){
+    public static void ejecutar(ColaTDA ColaE){
         System.out.println("Impresora de laboratorio.");
         ColaE.InicializarCola();
         System.out.println("La cola esta vacia?:" + ColaE.ColaVacia());
