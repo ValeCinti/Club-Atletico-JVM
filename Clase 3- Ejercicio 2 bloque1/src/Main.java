@@ -14,5 +14,7 @@ public class Main {
         ReversionDeStrings.ejecutar(pila, "ALGORITMOS");
         PilaDeLlamadas.ejecutar(pila);
         NavegacionDirectorios.ejecutar(pila);
+
+        
     }
 }
