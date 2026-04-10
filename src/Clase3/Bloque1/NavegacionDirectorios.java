@@ -1,5 +1,5 @@
-package clase3.bloque1;
-import Interfaces.PilaTDA;
+package clase3.Bloque1;
+import interfaces.PilaTDA;
 
 public class NavegacionDirectorios {
     private static final int DIR_C = 300;

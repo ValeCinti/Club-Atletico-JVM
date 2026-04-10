@@ -1,5 +1,5 @@
 package clase4.bloque2;
-import Implementaciones.*;
+import implementaciones.*;
 
 public class Bloque2Main {
     public static void main(String[] args) {

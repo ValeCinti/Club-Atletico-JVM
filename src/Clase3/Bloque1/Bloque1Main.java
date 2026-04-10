@@ -1,6 +1,6 @@
-package clase3.bloque1;
-import Implementaciones.Estrategia_1;
-import Interfaces.PilaTDA;
+package clase3.Bloque1;
+import implementaciones.Estrategia_1;
+import interfaces.PilaTDA;
 
 public class Bloque1Main {
     public static void main(String[] args) {

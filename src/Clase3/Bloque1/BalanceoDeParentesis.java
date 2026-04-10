@@ -1,5 +1,5 @@
-package clase3.bloque1;
-import Interfaces.PilaTDA;
+package clase3.Bloque1;
+import interfaces.PilaTDA;
 
 public class BalanceoDeParentesis {
     public static void ejecutar(PilaTDA pila, String expresion) {

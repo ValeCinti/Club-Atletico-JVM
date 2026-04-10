@@ -1,5 +1,5 @@
 package clase4.bloque2;
-import Interfaces.*;
+import interfaces.*;
 
 public class FilaCajero{
     public static int PrioridadPersona = 1;

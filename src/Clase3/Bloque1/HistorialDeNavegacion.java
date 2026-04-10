@@ -1,5 +1,5 @@
-package clase3.bloque1;
-import Interfaces.PilaTDA;
+package clase3.Bloque1;
+import interfaces.PilaTDA;
 
 public class HistorialDeNavegacion {
     private static final int FI_UBA = 1;

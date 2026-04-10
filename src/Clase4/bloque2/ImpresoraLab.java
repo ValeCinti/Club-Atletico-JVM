@@ -1,6 +1,6 @@
 package clase4.bloque2;
-import Interfaces.*;
-import Implementaciones.*;
+import implementaciones.*;
+import interfaces.*;
 
 public class ImpresoraLab {
     private static final int TP_1 = 1;
