@@ -1,5 +1,4 @@
 package clase4.bloque2;
-import implementaciones.*;
 import interfaces.*;
 
 public class ImpresoraLab {
