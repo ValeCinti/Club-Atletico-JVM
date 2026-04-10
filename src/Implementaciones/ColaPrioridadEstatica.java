@@ -1,6 +1,6 @@
-package Implementacion;
+package implementaciones;
 
-import Bloque2Interfaces.ColaPrioridad;
+import interfaces.ColaPrioridad;
 
 public class ColaPrioridadEstatica implements ColaPrioridad{
 

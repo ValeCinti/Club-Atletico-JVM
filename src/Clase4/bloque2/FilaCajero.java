@@ -1,6 +1,6 @@
-package Implementacion;
+package clase4.bloque2;
+import interfaces.*;
 
-import Bloque2Interfaces.ColaPrioridadEstatica;
 public class FilaCajero{
     public static int PrioridadPersona = 1;
     public static int PrioridadSeñoraEmbarazada = 3;
@@ -11,7 +11,7 @@ public class FilaCajero{
     public static int Jubilado = 3;
     public static int Persona2 = 4;
     
-    public static void ejecutar(ColaPrioridadEstatica COLA){
+    public static void ejecutar(ColaPrioridad COLA){
         COLA.InicializarColaPrioridad();
         System.out.println("primero llega una persona, se mete a la fila");
         COLA.AcolarPrioridad(Persona1,PrioridadPersona);

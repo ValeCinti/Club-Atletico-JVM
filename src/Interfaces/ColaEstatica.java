@@ -1,4 +1,4 @@
-package Bloque2Interfaces;
+package interfaces;
 
 public interface ColaEstatica {
     void InicializarCola();
