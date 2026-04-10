@@ -1,10 +1,10 @@
 package clase3.Bloque1;
-import implementaciones.Estrategia_1;
+import implementaciones.PilaEstrategia_1;
 import interfaces.PilaTDA;
 
 public class Bloque1Main {
     public static void main(String[] args) {
-        PilaTDA pila = new Estrategia_1();
+        PilaTDA pila = new PilaEstrategia_1();
 
         System.out.println("=== Bloque 1: Pilas (LIFO) ===\n");
 
