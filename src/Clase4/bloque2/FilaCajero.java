@@ -11,7 +11,7 @@ public class FilaCajero{
     public static int Jubilado = 3;
     public static int Persona2 = 4;
     
-    public static void ejecutar(ColaPrioridad COLA){
+    public static void ejecutar(ColaPrioridadTDA COLA){
         COLA.InicializarColaPrioridad();
         System.out.println("primero llega una persona, se mete a la fila");
         COLA.AcolarPrioridad(Persona1,PrioridadPersona);

@@ -32,5 +32,4 @@ public class ImpresoraLab {
 
         ColaE.Desacolar();
         System.out.println("¿Cola vacía?: " + ColaE.ColaVacia()); 
-    }
-    }
+    }}
