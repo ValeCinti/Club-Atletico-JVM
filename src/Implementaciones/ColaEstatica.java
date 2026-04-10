@@ -1,10 +1,7 @@
 package implementaciones;
 
-<<<<<<<< HEAD:src/Implementaciones/ColaEstaticaa.java
-import Bloque2Interfaces.ColaEstatica;
-========
+import interfaces.ColaEstatica;
 import interfaces.ColaTDA;
->>>>>>>> test:src/Implementaciones/ColaEstatica.java
 
 public class ColaEstaticaa implements ColaEstatica {
 
