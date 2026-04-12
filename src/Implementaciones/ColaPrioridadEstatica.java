@@ -103,10 +103,5 @@ public class ColaPrioridadEstatica implements ColaPrioridadTDA{
     public String PrimeroPCS(){
         return datoStrings[0];
     }
-
-
-
-
-
 }
 
