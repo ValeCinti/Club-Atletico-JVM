@@ -14,5 +14,4 @@ public interface ColaPrioridadTDA{
     void DesacolarPCS();
     int prioridadPCS();
     String PrimeroPCS();
-
 }
