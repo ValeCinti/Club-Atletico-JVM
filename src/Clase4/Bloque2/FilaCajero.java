@@ -2,28 +2,39 @@ package Clase4.Bloque2;
 import Interfaces.*;
 
 public class FilaCajero{
-    public static int PrioridadPersona = 1;
-    public static int PrioridadSeñoraEmbarazada = 3;
-    public static int PrioridadJubilado = 5;
     //OrdenDeLLEGADA
-    public static int Persona1 = 1;
-    public static int SeñoraEmbarazada = 2;
-    public static int Jubilado = 3;
-    public static int Persona2 = 4;
-    
-    public static void ejecutar(ColaPrioridadTDA COLA){
-        COLA.InicializarColaPrioridad();
-        System.out.println("primero llega una persona, se mete a la fila");
-        COLA.AcolarPrioridad(Persona1,PrioridadPersona);
-        System.out.println("El primero es persona1");
-        System.out.println("primero llega una señora embarazada, se mete a la fila");
-        COLA.AcolarPrioridad(SeñoraEmbarazada,PrioridadSeñoraEmbarazada);
-        System.out.println("primero llega un Jubilado, se mete a la fila");
-        COLA.AcolarPrioridad(Jubilado, PrioridadJubilado);
-        System.out.println("primero llega otra persona, se mete a la fila");
+    public static void ejecutar(ColaTDA COLA){
+        System.out.println("===FILA CAJERO===");
 
+        COLA.InicializarColaString();
         
+        COLA.AcolarString("Panchito");
+        System.out.println("llega Panchito, se mete a la cola");
         
+        COLA.AcolarString("Marta");
+        System.out.println("llega marta, se mete a la fila");
+        
+        COLA.AcolarString("Cecilio");
+        System.out.println("llega Cecilio, se mete a la fila");
+        System.out.println("La primera persona en la fila es "+ COLA.PrimeroString());
+        
+        System.out.println("Se Atiende a " + COLA.PrimeroString());
+        COLA.DesacolarString();
+        
+        System.out.println("Se Atiende a " + COLA.PrimeroString());
+        COLA.DesacolarString();
+        System.out.println("La primera persona en la fila es "+ COLA.PrimeroString());
+        
+        COLA.AcolarString("Carlitos");
+        System.out.println("llega Carlitos, se mete a la fila");
+        
+        COLA.DesacolarString();
+        System.out.println("Se Atiende a " + COLA.PrimeroString());
+
+        System.out.println("La primera persona en la fila es "+ COLA.PrimeroString());
+
+        System.out.println("primero llega otra persona, se mete a la fila");
         COLA.Desacolar();
+        
     }
 }
