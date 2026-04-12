@@ -1,4 +1,4 @@
-package clase4.bloque2;
+package Clase4_temp.Bloque2_temp;
 import interfaces.*;
 
 public class ImpresoraLab {
