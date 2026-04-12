@@ -1,4 +1,4 @@
-package interfaces;
+package Interfaces_temp;
 
 public interface ConjuntoTDA {
     void InicializarConjunto();

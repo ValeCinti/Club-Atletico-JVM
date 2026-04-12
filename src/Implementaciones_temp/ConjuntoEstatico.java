@@ -1,6 +1,6 @@
-package implementaciones;
+package Implementaciones_temp;
 
-import interfaces.ConjuntoTDA;
+import Interfaces_temp.ConjuntoTDA;
 
 public class ConjuntoEstatico implements ConjuntoTDA {
 

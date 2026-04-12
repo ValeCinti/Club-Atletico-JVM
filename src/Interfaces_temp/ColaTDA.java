@@ -1,4 +1,4 @@
-package interfaces;
+package Interfaces_temp;
 
 public interface ColaTDA {
     void InicializarCola();
