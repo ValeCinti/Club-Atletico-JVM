@@ -1,4 +1,4 @@
-package Interfaces_temp;
+package Interfaces;
 
 public interface DiccionarioMultipleTDA {
     void InicializarDiccionario();

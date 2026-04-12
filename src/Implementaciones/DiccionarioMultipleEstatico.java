@@ -1,6 +1,6 @@
-package Implementaciones_temp;
+package Implementaciones;
 
-import Interfaces_temp.DiccionarioMultipleTDA;
+import Interfaces.DiccionarioMultipleTDA;
 
 public class DiccionarioMultipleEstatico implements DiccionarioMultipleTDA {
 

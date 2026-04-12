@@ -1,6 +1,6 @@
-package Implementaciones_temp;
+package Implementaciones;
 
-import Interfaces_temp.DiccionarioSimpleTDA;
+import Interfaces.DiccionarioSimpleTDA;
 
 public class DiccionarioSimpleEstatico implements DiccionarioSimpleTDA {
 

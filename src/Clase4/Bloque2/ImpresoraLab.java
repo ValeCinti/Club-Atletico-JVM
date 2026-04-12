@@ -1,5 +1,5 @@
 package Clase4.Bloque2;
-import Interfaces_temp.*;
+import Interfaces.*;
 
 public class ImpresoraLab {
     private static final int TP_1 = 1;

@@ -1,5 +1,5 @@
 package Clase3.Bloque1;
-import Interfaces_temp.PilaTDA;
+import Interfaces.PilaTDA;
 
 public class EditorDeCodigo {
     private static final int ESTADO_INICIAL = 100;

@@ -1,6 +1,6 @@
-package Implementaciones_temp;
+package Implementaciones;
 
-import Interfaces_temp.ColaPrioridadTDA;
+import Interfaces.ColaPrioridadTDA;
 
 public class ColaPrioridadEstatica implements ColaPrioridadTDA{
 

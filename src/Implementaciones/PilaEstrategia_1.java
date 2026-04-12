@@ -1,6 +1,6 @@
-package Implementaciones_temp;
+package Implementaciones;
 
-import Interfaces_temp.PilaTDA;
+import Interfaces.PilaTDA;
 
 public class PilaEstrategia_1 implements PilaTDA {
 

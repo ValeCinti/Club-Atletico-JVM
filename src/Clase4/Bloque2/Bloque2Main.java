@@ -1,6 +1,6 @@
 package Clase4.Bloque2;
-import Implementaciones_temp.*;
-import Interfaces_temp.*;
+import Implementaciones.*;
+import Interfaces.*;
 
 public class Bloque2Main {
     public static void main(String[] args) {

@@ -1,5 +1,5 @@
 package Clase3.Bloque1;
-import Interfaces_temp.PilaTDA;
+import Interfaces.PilaTDA;
 
 public class ReversionDeStrings {
     public static void ejecutar(PilaTDA pila, String palabra) {
