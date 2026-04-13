@@ -36,5 +36,4 @@ public class BuffetFacultad{
         ColaBuffet.DesacolarString();
         System.out.println("¿Cola vacía?: " + ColaBuffet.ColaVacia()); 
     }
-
 }

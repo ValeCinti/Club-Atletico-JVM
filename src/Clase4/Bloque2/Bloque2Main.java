@@ -12,5 +12,6 @@ public class Bloque2Main {
         FilaCajero.ejecutar(colaE);
         GuardiaDelHospital.ejecutar(ColaPrioridad);
         BuffetFacultad.ejecutar(ColaBuffet);
+        ExamenFinal.ejecutar(ColaPrioridad);
     }
 }
