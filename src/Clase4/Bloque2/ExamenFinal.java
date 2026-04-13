@@ -29,22 +29,12 @@ public class ExamenFinal{
         Alumnos[cantidadDealumnos]="Habibi";
         cantidadDealumnos++;
 
-
-        // se puede hacer con un while tranquilamente
-        System.out.println("llaman a "+ Alumnos[ExamenFinal.Primero()]+" Para que entre");
-        System.out.println(Alumnos[ExamenFinal.Primero()] +" Sale de la Sala");
-        ExamenFinal.Desacolar();
-        
-        System.out.println("se llama a " + Alumnos[ExamenFinal.Primero()] +" para que pase");
-        System.out.println(Alumnos[ExamenFinal.Primero()] + "Sale de la fila de buffet");
-        ExamenFinal.Desacolar();
-        
-        System.out.println("Se llama a "+Alumnos[ExamenFinal.Primero()]+"para que pase");
-        System.out.println(Alumnos[ExamenFinal.Primero()]+"Sale de la fila");
-        ExamenFinal.Desacolar();
-        System.out.println("¿Cola vacía?: " + ExamenFinal.ColaVacia());
-        if (ExamenFinal.ColaVacia()){
-            System.out.println("quedan 0 alumnos en la lista en la fila");
+        while(!ExamenFinal.ColaVacia()){
+            System.out.println("llaman a "+ Alumnos[ExamenFinal.Primero()]+" Para que entre");
+            System.out.println(Alumnos[ExamenFinal.Primero()] +" Sale de la Sala");
+            ExamenFinal.Desacolar();
         }
+        System.out.println("quedan 0 alumnos en la lista en la fila");
+            
     }
 }

@@ -13,5 +13,6 @@ public class Bloque2Main {
         GuardiaDelHospital.ejecutar(ColaPrioridad);
         BuffetFacultad.ejecutar(ColaBuffet);
         ExamenFinal.ejecutar(ColaPrioridad);
+        EmbarqueDeAerolineas.ejecutar(ColaPrioridad);
     }
 }
