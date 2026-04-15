@@ -3,7 +3,7 @@ import Implementaciones.*;
 import Interfaces.*;
 
 public class PadronElectoral {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         System.out.println("inicializo el nuevo conjunto llamado Padron");
         ConjuntoTDA Padron = new ConjuntoEstatico();
         Padron.InicializarConjunto();
