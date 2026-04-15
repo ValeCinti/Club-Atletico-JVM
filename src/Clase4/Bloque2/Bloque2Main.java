@@ -14,7 +14,7 @@ public class Bloque2Main {
         BuffetFacultad.ejecutar(colaE);
         ExamenFinal.ejecutar(ColaPrioridad);
         ProcesadorDeTareas.ejecutar(ColaPrioridad);
-        //DistribuidorDeTicketsIT.ejecutar(ColaPrioridad);
+        DistribuidorDeTicketsIT.ejecutar(ColaPrioridad);
 
     }
 }
