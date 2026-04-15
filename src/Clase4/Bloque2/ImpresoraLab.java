@@ -31,6 +31,6 @@ public class ImpresoraLab {
         System.out.println("Primero luego de desacolar: " + ColaE.Primero()); 
 
         ColaE.Desacolar();
-        System.out.println("¿Cola vacía?: " + ColaE.ColaVacia()); 
+        System.out.println("¿Cola vacía?: " + ColaE.ColaVacia() + "\n"); 
     }
 }

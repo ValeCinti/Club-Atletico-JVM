@@ -31,6 +31,6 @@ public class FilaCajero{
         System.out.println("Se Atiende a " + COLA.PrimeroString());
         COLA.DesacolarString();
 
-        System.out.println("La primera persona en la cola es "+ COLA.PrimeroString());
+        System.out.println("La primera persona en la cola es "+ COLA.PrimeroString() + "\n");
     }
 }

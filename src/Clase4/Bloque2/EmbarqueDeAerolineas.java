@@ -43,6 +43,6 @@ public class EmbarqueDeAerolineas{
             System.out.println(NombresEmbaque[EmbarqueDeAerolineas.Primero()] +" Se sienta en el avion");
             EmbarqueDeAerolineas.Desacolar();
         }
-        System.out.println("no queda nadie haciendo la cola para subir al avion");    
+        System.out.println("no queda nadie haciendo la cola para subir al avion" + "\n");    
     }
 }
