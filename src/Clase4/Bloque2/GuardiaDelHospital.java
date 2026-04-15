@@ -29,7 +29,7 @@ public class GuardiaDelHospital{
         
         System.out.println("la primera persona en la fila es "+Colaprioridad.PrimeroPCS());
         Colaprioridad.DesacolarPCS();
-        System.out.println("no hay mas gente en la cola" + "\n");
+        System.out.println("no hay mas gente en la cola\n");
      
         
     }

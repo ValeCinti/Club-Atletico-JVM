@@ -4,7 +4,7 @@ import Interfaces.*;
 public class FilaCajero{
     //OrdenDeLLEGADA
     public static void ejecutar(ColaTDA COLA){
-        System.out.println("===FILA CAJERO===");
+        System.out.println("===FILA CAJERO===\n");
 
         COLA.InicializarColaString();
         
