@@ -11,7 +11,7 @@ public class ExamenFinal{
         int cantidadDealumnos = 0;
         Alumnos = new String[100];
 
-        System.out.println("===Examen Final===");
+        System.out.println("=== Examen Final ===\n");
         ExamenFinal.InicializarColaPrioridad();
         
         System.out.println("Se mete Mirta a la Fila. Hora de llegada(8:00)");
@@ -34,7 +34,7 @@ public class ExamenFinal{
             System.out.println(Alumnos[ExamenFinal.Primero()] +" Sale de la Sala");
             ExamenFinal.Desacolar();
         }
-        System.out.println("quedan 0 alumnos en la lista en la fila");
+        System.out.println("quedan 0 alumnos en la lista en la fila\n");
             
     }
 }
