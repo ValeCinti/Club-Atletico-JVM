@@ -1,6 +1,4 @@
 package Clase4.Bloque3;
-import Implementaciones.*;
-import Interfaces.*;
 
 public class PadronElectoral {
     public static void main(String[] args) {
