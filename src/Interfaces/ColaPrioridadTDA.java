@@ -8,10 +8,10 @@ public interface ColaPrioridadTDA{
     int Primero();
     int Prioridad();
     
-    //PCS = Pero Con Strings 
+    /*PCS = Pero Con Strings 
     void InicializarColaPrioridadPCS();
     void AcolarPrioridadPCS (String Persona, int Prioridad);
     void DesacolarPCS();
     int prioridadPCS();
-    String PrimeroPCS();
+    String PrimeroPCS();*/
 }

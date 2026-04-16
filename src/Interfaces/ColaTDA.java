@@ -6,9 +6,9 @@ public interface ColaTDA {
     void Desacolar();
     int Primero();
     boolean ColaVacia();
-    //metodos pero con strings 
+    /*metodos pero con strings 
     void InicializarColaString();
     void AcolarString(String s);
     String PrimeroString();
-    void DesacolarString();
+    void DesacolarString();*/
 }

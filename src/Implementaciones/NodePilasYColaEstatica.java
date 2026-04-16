@@ -1,11 +1,11 @@
 package Implementaciones;
 
-public class Node {
+public class NodePilasYColaEstatica {
 
     private int data;
-    private Node next;
+    private NodePilasYColaEstatica next;
 
-    public Node(int data, Node next) {
+    public NodePilasYColaEstatica(int data, NodePilasYColaEstatica next) {
         this.data = data;
         this.next = next;
     }
@@ -18,11 +18,11 @@ public class Node {
         this.data = data;
     }
 
-    public Node getNext() {
+    public NodePilasYColaEstatica getNext() {
         return next;
     }
 
-    public void setNext(Node next) {
+    public void setNext(NodePilasYColaEstatica next) {
         this.next = next;
     }
 }

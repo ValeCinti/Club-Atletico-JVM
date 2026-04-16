@@ -46,7 +46,7 @@ public class ColaEstatica implements ColaTDA {
     
     // los metodos a continuacion son agregados a mano
     
-    @Override
+    
     public void AcolarString(String s){
         if (cantidad < MAX) {
             datoStrings[cantidad] = s;
@@ -54,17 +54,17 @@ public class ColaEstatica implements ColaTDA {
         }
     }
 
-    @Override
+    
     public String PrimeroString(){
         return datoStrings[0];
     }
-    @Override
+    
     public void InicializarColaString() {
         datoStrings = new String[MAX];
         cantidad = 0;
     }
     
-    @Override 
+    
     public void DesacolarString(){
         if (!ColaVacia()) {
             for (int i = 0; i < cantidad - 1; i++) {

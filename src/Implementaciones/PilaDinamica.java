@@ -4,7 +4,7 @@ import Interfaces.PilaTDA;
 
 public class PilaDinamica implements PilaTDA {
 
-    private Node tope; // apunta al nodo que está en el tope de la pila
+    private NodePilasYColaEstatica tope; // apunta al nodo que está en el tope de la pila
 
     @Override
     public void InicializarPila() {
@@ -15,7 +15,7 @@ public class PilaDinamica implements PilaTDA {
     public void Apilar(int x) {
         // El nuevo nodo apunta al tope actual, y pasa a ser el nuevo tope.
         // Esto respeta LIFO: el último en entrar es el primero en salir.
-        Node node = new Node(x, tope);
+        NodePilasYColaEstatica node = new NodePilasYColaEstatica(x, tope);
         tope = node;
     }
 

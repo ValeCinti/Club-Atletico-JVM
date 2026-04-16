@@ -62,14 +62,14 @@ public class ColaPrioridadEstatica implements ColaPrioridadTDA{
     }
 
 
-    @Override
+    
     public void InicializarColaPrioridadPCS(){
        datoStrings = new String[MAX];
        prioridades = new int[MAX];
         cantidad = 0;
     }
 
-    @Override
+    
     public void AcolarPrioridadPCS (String Persona, int Prioridad){
         if (cantidad < MAX) {
             int i = cantidad - 1;
@@ -84,7 +84,7 @@ public class ColaPrioridadEstatica implements ColaPrioridadTDA{
             cantidad++;
         }
     }
-    @Override
+    
     public void DesacolarPCS(){
         if (!ColaVacia()){
             for (int i = 0; i < cantidad-1; i++ ) {
@@ -95,11 +95,11 @@ public class ColaPrioridadEstatica implements ColaPrioridadTDA{
         }
     }
 
-    @Override
+    
     public int prioridadPCS(){
         return prioridades[0];
     }
-    @Override
+    
     public String PrimeroPCS(){
         return datoStrings[0];
     }
