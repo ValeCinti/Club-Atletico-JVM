@@ -1,4 +1,6 @@
-package Clase4.Bloque3;
+package Implementaciones;
+
+import Interfaces.ConjuntoTDA;
 
 public class ConjuntoEstatico implements ConjuntoTDA {
 

@@ -1,5 +1,8 @@
 package Clase4.Bloque3;
 
+import Implementaciones.ConjuntoEstatico;
+import Interfaces.ConjuntoTDA;
+
 public class PruebaElegir {
     public static void main(String[] args) {
         ConjuntoTDA conjunto = new ConjuntoEstatico();

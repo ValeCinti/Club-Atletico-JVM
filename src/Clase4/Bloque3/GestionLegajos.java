@@ -1,54 +1,22 @@
 package Clase4.Bloque3;
+import Interfaces.ConjuntoTDA;
 
 public class GestionLegajos {
-    public static void main(String[] args) {
-        // Conjunto principal de la Facultad
-        ConjuntoTDA legajosFacultad = new ConjuntoEstatico();
-        legajosFacultad.InicializarConjunto();
+    public static void ejecutar(ConjuntoTDA sistema) {
+        System.out.println("--- 5) Simulacion: Gestion de Legajos Unicos ---");
+        sistema.InicializarConjunto();
 
-        int legajoAlumno = 45001; // El legajo único del alumno
+        int legajoAlumno = 45678;
+        
+        System.out.println("Alumno se anota a Ingenieria Informatica (Legajo: " + legajoAlumno + ")");
+        sistema.Agregar(legajoAlumno);
 
-        // 1. El alumno se anota a Informática
-        System.out.println("Inscribiendo al alumno " + legajoAlumno + " en Informática...");
-        legajosFacultad.Agregar(legajoAlumno);
-
-        // 2. El mismo alumno se anota a Industrial
-        System.out.println("Inscribiendo al alumno " + legajoAlumno + " en Industrial...");
-        legajosFacultad.Agregar(legajoAlumno);
-
-        // Verificamos cuántas veces aparece el legajo
-        int cantidadTotal = contarLegajos(legajosFacultad);
-        System.out.println("Total de legajos únicos en el sistema: " + cantidadTotal);
-    }
-
-    static int contarLegajos(ConjuntoTDA c) {
-        int contador = 0;
-        ConjuntoTDA aux = clonar(c);
-        while (!aux.ConjuntoVacio()) {
-            int elemento = aux.Elegir();
-            contador++;
-            aux.Sacar(elemento);
+        System.out.println("El mismo alumno intenta anotarse a Lic. en Sistemas.");
+        if (sistema.Pertenece(legajoAlumno)) {
+            System.out.println("El sistema reconoce el legajo " + legajoAlumno + ". Se vincula a la nueva carrera sin duplicar el ID en la DB.");
+        } else {
+            sistema.Agregar(legajoAlumno);
         }
-        return contador;
-    }
-
-    // metodo pora no borrar el conjunto por contar los elementos
-    static ConjuntoTDA clonar(ConjuntoTDA origen) {
-        ConjuntoTDA destino = new ConjuntoEstatico();
-        destino.InicializarConjunto();
-        ConjuntoTDA temp = new ConjuntoEstatico();
-        temp.InicializarConjunto();
-        while(!origen.ConjuntoVacio()){
-            int x = origen.Elegir();
-            temp.Agregar(x);
-            origen.Sacar(x);
-        }
-        while(!temp.ConjuntoVacio()){
-            int x = temp.Elegir();
-            origen.Agregar(x);
-            destino.Agregar(x);
-            temp.Sacar(x);
-        }
-        return destino;
+        System.out.println();
     }
 }

@@ -1,33 +1,38 @@
 package Clase4.Bloque3;
 
-public class PadronElectoral {
-    public static void main(String[] args) {
-        System.out.println("inicializo el nuevo conjunto llamado Padron");
-        ConjuntoTDA Padron = new ConjuntoEstatico();
-        Padron.InicializarConjunto();
-        System.out.print("ingresamos el dni 1234 para probar");
-        int DniParaVotar = 1234;
-        if(!Padron.Pertenece(DniParaVotar)){
-            Padron.Agregar(DniParaVotar);
-            System.out.println("Voto registrado con exito para el DNI"+DniParaVotar);
-        } else {
-            System.out.println("ERROR: El DNI " +DniParaVotar + "ya emitio su voto");
-        }
-        DniParaVotar = 5678;
-        System.out.print("ingresamos el dni 5678");
+import Interfaces.ConjuntoTDA;
 
-        if(!Padron.Pertenece(DniParaVotar)){
-            Padron.Agregar(DniParaVotar);
-            System.out.println("Voto registrado con exito para el DNI"+DniParaVotar);
+public class PadronElectoral {
+    public static void ejecutar(ConjuntoTDA padron) {
+        System.out.println("--- 1) Padron Electoral ---");
+        padron.InicializarConjunto();
+        
+        System.out.println("Ingresamos el DNI 1234 para probar");
+        int dniParaVotar = 1234;
+        if(!padron.Pertenece(dniParaVotar)){
+            padron.Agregar(dniParaVotar);
+            System.out.println("Voto registrado con exito para el DNI " + dniParaVotar);
         } else {
-            System.out.println("ERROR: El DNI " +DniParaVotar + "ya emitio su voto");
+            System.out.println("ERROR: El DNI " + dniParaVotar + " ya emitio su voto");
         }
-        System.out.println("ahora intentamos volver a ingresar un DNI que ya voto");
-        if(!Padron.Pertenece(DniParaVotar)){
-            Padron.Agregar(DniParaVotar);
-            System.out.println("Voto registrado con exito para el DNI"+DniParaVotar);
+        
+        dniParaVotar = 5678;
+        System.out.println("Ingresamos el DNI 5678");
+        if(!padron.Pertenece(dniParaVotar)){
+            padron.Agregar(dniParaVotar);
+            System.out.println("Voto registrado con exito para el DNI " + dniParaVotar);
         } else {
-            System.out.println("ERROR: El DNI " +DniParaVotar + "ya emitio su voto");
+            System.out.println("ERROR: El DNI " + dniParaVotar + " ya emitio su voto");
         }
+        
+        System.out.println("Ahora intentamos volver a ingresar el DNI 1234 que ya voto");
+        dniParaVotar = 1234;
+        if(!padron.Pertenece(dniParaVotar)){
+            padron.Agregar(dniParaVotar);
+            System.out.println("Voto registrado con exito para el DNI " + dniParaVotar);
+        } else {
+            System.out.println("ERROR: El DNI " + dniParaVotar + " ya emitio su voto");
+        }
+        System.out.println();
     }
 }

@@ -1,4 +1,4 @@
-package Clase4.Bloque3;
+package Interfaces;
 
 public interface ConjuntoTDA {
     void InicializarConjunto();

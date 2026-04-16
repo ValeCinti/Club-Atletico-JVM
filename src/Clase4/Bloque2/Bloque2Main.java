@@ -15,6 +15,7 @@ public class Bloque2Main {
         ExamenFinal.ejecutar(ColaPrioridad);
         ProcesadorDeTareas.ejecutar(ColaPrioridad);
         DistribuidorDeTicketsIT.ejecutar(ColaPrioridad);
-
+        EmbarqueDeAerolineas.ejecutar(ColaPrioridad);
+        
     }
 }
