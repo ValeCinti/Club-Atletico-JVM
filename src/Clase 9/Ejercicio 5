@@ -1,0 +1,5 @@
+EJERCICIO 5: Regla del Producto (Matrices)
+Analizá la complejidad de recorrer una matriz cuadrada n X n para buscar un número par. Identificá el peor caso.
+
+// El peor caso seria  que no se encuentren numeros par dentro de la matriz, por lo que tendra una complejidad de O(n*2) 
+ya que se debe recorrer toda las columnas y filas 

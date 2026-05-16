@@ -1,0 +1,15 @@
+EJERCICIO 6: Jerarquía de Dominancia
+Determiná la familia de complejidad total del siguiente bloque de código aplicando las reglas de simplificación.
+public static void procesoMezclado(int[] datos) {
+    int n = datos.length;                                       c1
+    // Bloque A: Bucle simple
+    for (int i = 0; i < n; i++) { System.out.println(datos[i]); }   n1 *c2
+    // Bloque B: Bucles anidados
+    for (int i = 0; i < n; i++) {                           n2
+        for (int j = 0; j < n; j++) { datos[i] += datos[j]; }  n3 * c3
+    }
+}
+
+// Bloque a n1*c2 c2 se simplifica = n1
+// Bloque b n2(n3*c3) se simplifica c3 y se multiplica los n = n*2
+// La complejidad es de O(N*2)

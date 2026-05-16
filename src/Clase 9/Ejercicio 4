@@ -1,0 +1,10 @@
+EJERCICIO 4: Regla de la Suma (Código Secuencial)
+Analizá el siguiente método y determiná su familia de complejidad desglosando el costo de cada bloque independiente.
+public static void procesoMisterioso(int[] arreglo) {
+    int n = arreglo.length;                                 // c1
+    System.out.println("Inicio");                           // c2
+    for (int i = 0; i < n; i++) { arreglo[i] *= 2; }        // n1 * c3
+    for (int j = 0; j < n; j++) { System.out.println(arreglo[j]); }   // n2 * c4    
+}
+// c1 + c2 + (n1 * c3) + n2 * c4 *(cancelar constantes)=>  n2 + n2 => 2n *(cancelar constantes)=> n
+// Este codigo tiene una complejidad de O(n)

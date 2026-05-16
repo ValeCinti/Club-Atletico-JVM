@@ -1,0 +1,5 @@
+EJERCICIO 7: Divide y Vencerás 
+Explicá matemáticamente por qué la Búsqueda Binaria
+ sobre un arreglo ordenado de n elementos pertenece a la familia O(log n).
+ Utilizá el concepto de divisiones sucesivas de la tanda de datos.
+ // Se divde en 2 el arreglo hasta que se encuentra el valor deseado resultando en un complejidad de O(log n) 

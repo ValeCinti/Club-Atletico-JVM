@@ -1,0 +1,7 @@
+JERCICIO 8: El costo oculto del TDA Conjunto
+Se desea calcular la intersección de dos Conjuntos (A y B) de tamaño n cada uno usando implementaciones estáticas. 
+El algoritmo recorre A y por cada elemento llama a B.Pertenece(x). Si es true, 
+lo agrega a un conjunto resultado usando Agregar(x). 
+¿Cuál es la complejidad temporal real considerando las validaciones internas del TDA?.
+// considerando las validaciones del TDA de pertenece() y agregar() nos queda una complejidad de O(n1*(n2+n3)) ->O(n1*2n*2)->O(n*2)
+//Por lo tanto, tiene una complejidad cuadratica

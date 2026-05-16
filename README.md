@@ -24,4 +24,16 @@ En esta actividad se nos presentaron ocho distintas situaciones para que analice
 ## Actividad Clase 4 -09/4/26 
 Ejercicios 3,4 y5 y sus respectivos bloques: bloque 2( Colas y Colas con Prioridad),  bloque 3(Conjuntos (Sin Duplicados)) y bloque 4(Diccionarios Simples y Múltiples (Clave-Valor))
 
-EEn esta clase trabajamos con distintos TDA. En el bloque 2 estudiamos colas y colas con prioridad (FIFO y ranking). En el bloque 3 analizamos conjuntos, donde no se permiten duplicados. Finalmente, en el bloque 4 vimos diccionarios, que relacionan claves con valores. Aprendimos a modelar problemas reales usando estas estructuras.
+En esta clase trabajamos con distintos TDA. En el bloque 2 estudiamos colas y colas con prioridad (FIFO y ranking). En el bloque 3 analizamos conjuntos, donde no se permiten duplicados. Finalmente, en el bloque 4 vimos diccionarios, que relacionan claves con valores. Aprendimos a modelar problemas reales usando estas estructuras.
+
+## Actividad Clase 5 -16/4/26 
+
+Durante esta clase ejercitamos el uso de las estructuras dinamicas y como podemos pasar de este tipo de estrucutra dinamicas a estrucutras estaticas. Por ejemplo, cambiar una Pila Estatica a pila Dinamica
+
+## Actividad Clase 8 -07/5/26
+
+En la CLase 8 nosotros exploramos los diferentes costos de las implemetanciones que hemos usado hasta ahora. Para ello, hemos usado las sitio web Big O calc para poder cacular sus respectivos costos.  
+
+## Actividad Clase 9 -14/5/26
+
+En esta classe indagamos en mayor profundidad en costos y como analisar codigo para identificar sus costos particulares. Para practicar hemos hecho 10 ejercicios sobre este tema. 

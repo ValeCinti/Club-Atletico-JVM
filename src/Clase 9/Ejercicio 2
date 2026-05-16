@@ -1,0 +1,10 @@
+EJERCICIO 2: Comparativa de "Fierros" (TDAs Estáticos)
+Analizá la operación Acolar(x) en:
+1.ColaPU (Estática): El nuevo elemento va siempre a la posición 0. // 0(n) se utiliza un for para mover los elementos
+2.ColaPI (Estática): El nuevo elemento va al final del arreglo. // 0(1)
+3.ColaLD (Dinámica): Usa nodos con punteros al primero y último.  // 0(1)
+Indica el costo temporal para cada una y justifica por qué la implementación estática "PU" es distinta a las demás.
+
+//Cola PU tiene un costo temporal de O(n) ya que en el caso de un una cola estatica donde el arreglo va en la posición 0 
+se debe recorrer las cola para mover los elementos una posicion a la derecha. 
+

@@ -1,0 +1,8 @@
+EJERCICIO 10: Análisis de algoritmo con recursión doble
+Dada la implementación recursiva de Fibonacci:
+public static int fibonacci(int n) {
+    if (n <= 1) return n;
+    return fibonacci(n - 1) + fibonacci(n - 2);
+}
+Sin realizar el cálculo matemático exacto, indicá a qué familia de costo (jerarquía) pertenece (¿Constante, Lineal o Exponencial?) y justificá basándote en el crecimiento de las llamadas.
+//En este caso la complejidad es de o(n) ya que en fibonacci se repite el bucle n veces, por lo cual pertenece a un costo lineal. 

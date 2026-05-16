@@ -1,0 +1,7 @@
+EJERCICIO 3: El algoritmo integrador filtrar
+Un método recibe una Cola de n elementos, extrae todos para identificar los mayores a un "límite"
+(guardándolos en una cola nueva) y luego restaura la original volcando los datos desde una estructura auxiliar tmp.
+Determina: (a) Complejidad temporal O(n) y (b) Complejidad espacial O(n).
+
+// TEMPORAL: hay 2 whiles por separado  por lo tanto la complejidad es de O(n)
+// ESPACIAL: hay una cantidad de 2 n = N + N = 2n, al simplificar no queda O(n)

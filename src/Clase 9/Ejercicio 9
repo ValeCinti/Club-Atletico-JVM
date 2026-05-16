@@ -1,0 +1,7 @@
+EJERCICIO 9: Parámetros múltiples (Cola con Prioridad)
+Analizá la operación Desacolar() en una Cola con Prioridad implementada con K subcolas.
+ Justificá por qué su complejidad es O(K) y por qué se dice que es independiente de la cantidad total de elementos n.
+
+//En este caso primero se debe recorrer las k sub colas y en el caso de una implementacion dinamica 
+//solo se quita el nodo que se quiere desacolar siendo esto O(1), resultando en una complejidad en base a k y no en base de N aunque 
+// La complejidad de este ejercicio varia si se utiliza una implementacion dianmica o estatica

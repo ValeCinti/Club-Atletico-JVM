@@ -1,0 +1,21 @@
+ Análisis de ciclos anidados con condición
+Determiná la familia de complejidad temporal del siguiente método en el peor caso. Justificá analizando el comportamiento de los índices.
+public static int buscarYValidar(int[] array) {
+    for(int i = 0; i < array.length; i++) {                 //n1
+        if(array[i] == 5) {                                 //c1   condicion principal
+            return i;                                       //c2
+        } else {
+            for(int j = 0; j < i; j++) {                    //n_2   peor caso
+                if(array[j] == 6) return i;                 // c3  / c4
+            }
+        }
+    }
+    return -1;                                               // c5
+}
+
+// n2 (c3+c4)
+
+// (ni*(c1+(n2*c3+c4)
+// (ni*(c1+(n2*c3+c4))   0(n*2)
+// hemos identificado un costo temporal de 0(n*2) ya que evaluando el pero caso donde no se 
+// encuentra el 5 se debe ejecutar un ciclo aniadod en otro ciclo
