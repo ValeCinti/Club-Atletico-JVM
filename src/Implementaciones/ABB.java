@@ -66,6 +66,15 @@ public class ABB implements ABBTDA {
         }
     }
 
+    // Método privado auxiliar para encontrar el mayor valor de un subárbol
+    private int buscarMayor(ABBTDA arbol) {
+        if (arbol.hijoDer().arbolVacio()) {
+            return arbol.raiz();
+        } else {
+            return buscarMayor(arbol.hijoDer());
+        }
+    }
+
     @Override
     public boolean arbolVacio() {
         return nodo == null;
