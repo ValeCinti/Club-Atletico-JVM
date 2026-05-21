@@ -1,8 +1,6 @@
 package Implementaciones;
 
-import Interfaces.*;
-
-public class Arbol {
+public class ABB {
     public void agregarElem(int x) {
         if(nodo == null) {
             nodo = new NodoABB();

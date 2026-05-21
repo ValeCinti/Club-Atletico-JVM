@@ -1,6 +1,6 @@
 package Interfaces;
 
-public class ArbolTDA {
+public interface ABBTDA {
     void agregarElem(int x);
     void eliminarElem(int x);
 
